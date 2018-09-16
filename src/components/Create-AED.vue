@@ -4,7 +4,7 @@
       <section>
           <v-layout row wrap justify-center>
             <v-flex xs12>              
-              <iframe src="../../static/Incidentmap.html" seamless></iframe>
+              <iframe src="./static/Incidentmap.html" seamless></iframe>
                 <v-layout row wrap>
                   <v-flex xs12>
                     <v-btn

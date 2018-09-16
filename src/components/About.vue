@@ -2,7 +2,7 @@
  <v-content class="about">
      <div id="customHtml"> </div>
       <section>
-        <v-parallax src="../../static/Capture2.PNG" height="600">
+        <v-parallax src="./static/Capture2.PNG" height="600">
           <v-layout
             column
             align-center
