@@ -49,6 +49,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/HeartHack---Heart-Map',
+    baseUrl: "/HeartHack---Heart-Map",
 
     /**
      * Source Maps
