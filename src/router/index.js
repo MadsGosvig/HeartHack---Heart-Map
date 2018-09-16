@@ -3,11 +3,11 @@ import Router from 'vue-router';
 import OptimzeAED from '@/components/Optmize-AED';
 import CreateAED from '@/components/Create-AED';
 import About from "@/components/About";
+import HeatMap from "@/components/Heatmap";
 
 Vue.use(Router);
 
 export default new Router({
-  base: '/HeartHack---Heart-Map',
   mode: 'history',
   routes: [
     {
@@ -24,6 +24,11 @@ export default new Router({
       path: '/',
       name: 'about',
       component: About,
+    },
+    {
+      path: '/heatmap',
+      name: 'heatmap',
+      component: HeatMap,
     },
   ],
 });
